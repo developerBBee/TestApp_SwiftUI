@@ -16,6 +16,7 @@
 		4146CDF72A34523200340EF5 /* testAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146CDF62A34523200340EF5 /* testAppTests.swift */; };
 		4146CE012A34523200340EF5 /* testAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146CE002A34523200340EF5 /* testAppUITests.swift */; };
 		4146CE032A34523200340EF5 /* testAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146CE022A34523200340EF5 /* testAppUITestsLaunchTests.swift */; };
+		4181CDE62A34850500947776 /* CountUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4181CDE52A34850500947776 /* CountUP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		4146CDFC2A34523200340EF5 /* testAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4146CE002A34523200340EF5 /* testAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppUITests.swift; sourceTree = "<group>"; };
 		4146CE022A34523200340EF5 /* testAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4181CDE52A34850500947776 /* CountUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		4146CDDF2A34523000340EF5 /* testApp */ = {
 			isa = PBXGroup;
 			children = (
+				4181CDE42A3484CE00947776 /* pages */,
 				4146CDE02A34523000340EF5 /* testAppApp.swift */,
 				4146CDE22A34523000340EF5 /* ContentView.swift */,
 				4146CDE42A34523200340EF5 /* Assets.xcassets */,
@@ -131,6 +134,14 @@
 				4146CE022A34523200340EF5 /* testAppUITestsLaunchTests.swift */,
 			);
 			path = testAppUITests;
+			sourceTree = "<group>";
+		};
+		4181CDE42A3484CE00947776 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				4181CDE52A34850500947776 /* CountUP.swift */,
+			);
+			path = pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 				4146CDEA2A34523200340EF5 /* Persistence.swift in Sources */,
 				4146CDED2A34523200340EF5 /* testApp.xcdatamodeld in Sources */,
 				4146CDE32A34523000340EF5 /* ContentView.swift in Sources */,
+				4181CDE62A34850500947776 /* CountUP.swift in Sources */,
 				4146CDE12A34523000340EF5 /* testAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

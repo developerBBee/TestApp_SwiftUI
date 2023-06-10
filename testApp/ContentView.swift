@@ -19,17 +19,8 @@ struct ContentView: View {
     @State var count = 0
     var body: some View {
         NavigationView {
-            VStack {
-                Spacer()
-                Button(
-                    action: {
-                    count = count+1
-                }){
-                    Text("Count-up")
-                }
-                Spacer()
-                Text("\(count)")
-                Spacer()
+            NavigationLink(destination: CountUP()) {
+                Text("画面遷移")
             }
         }
     }
