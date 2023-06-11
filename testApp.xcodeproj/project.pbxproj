@@ -18,6 +18,8 @@
 		4146CE032A34523200340EF5 /* testAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146CE022A34523200340EF5 /* testAppUITestsLaunchTests.swift */; };
 		4181CDE62A34850500947776 /* CountUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4181CDE52A34850500947776 /* CountUP.swift */; };
 		4181CDE82A35569900947776 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4181CDE72A35569900947776 /* MyImage.swift */; };
+		4181CDED2A35658500947776 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4181CDEC2A35658500947776 /* MyTimer.swift */; };
+		4181CDF02A357EAA00947776 /* CountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4181CDEF2A357EAA00947776 /* CountData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		4146CE022A34523200340EF5 /* testAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4181CDE52A34850500947776 /* CountUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUP.swift; sourceTree = "<group>"; };
 		4181CDE72A35569900947776 /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
+		4181CDEC2A35658500947776 /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
+		4181CDEF2A357EAA00947776 /* CountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,10 +145,28 @@
 		4181CDE42A3484CE00947776 /* pages */ = {
 			isa = PBXGroup;
 			children = (
+				4181CDEE2A357E8800947776 /* counter */,
+				4181CDEB2A35656100947776 /* timer */,
 				4181CDE52A34850500947776 /* CountUP.swift */,
 				4181CDE72A35569900947776 /* MyImage.swift */,
 			);
 			path = pages;
+			sourceTree = "<group>";
+		};
+		4181CDEB2A35656100947776 /* timer */ = {
+			isa = PBXGroup;
+			children = (
+				4181CDEC2A35658500947776 /* MyTimer.swift */,
+			);
+			path = timer;
+			sourceTree = "<group>";
+		};
+		4181CDEE2A357E8800947776 /* counter */ = {
+			isa = PBXGroup;
+			children = (
+				4181CDEF2A357EAA00947776 /* CountData.swift */,
+			);
+			path = counter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,9 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4146CDEA2A34523200340EF5 /* Persistence.swift in Sources */,
+				4181CDED2A35658500947776 /* MyTimer.swift in Sources */,
 				4181CDE82A35569900947776 /* MyImage.swift in Sources */,
 				4146CDED2A34523200340EF5 /* testApp.xcdatamodeld in Sources */,
 				4146CDE32A34523000340EF5 /* ContentView.swift in Sources */,
+				4181CDF02A357EAA00947776 /* CountData.swift in Sources */,
 				4181CDE62A34850500947776 /* CountUP.swift in Sources */,
 				4146CDE12A34523000340EF5 /* testAppApp.swift in Sources */,
 			);
