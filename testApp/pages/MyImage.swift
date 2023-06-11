@@ -20,6 +20,6 @@ struct MyImage: View {
                 Spacer()
                 Button(action: {dismiss()}, label: {Text("back")})
             }
-        }
+        }.navigationBarTitle("MyImage", displayMode: .inline)
     }
 }

@@ -28,7 +28,7 @@ struct ContentView: View {
                     Text("画面遷移 MyImage")
                 }
                 Spacer()
-            }
+            }.navigationBarTitle("Home")
         }
     }
 }

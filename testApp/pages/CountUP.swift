@@ -61,7 +61,7 @@ struct CountUP: View {
                 Spacer()
                 Button(action: {dismiss()}, label: {Text("back")}).padding()
             }
-        }
+        }.navigationBarTitle("CountUP", displayMode: .inline)
     }
 }
 
