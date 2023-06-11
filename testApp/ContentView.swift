@@ -28,6 +28,10 @@ struct ContentView: View {
                     Text("画面遷移 MyImage")
                 }
                 Spacer()
+                NavigationLink(destination: WebViewPage()) {
+                    Text("画面遷移 WebPage")
+                }
+                Spacer()
             }.navigationBarTitle("Home")
         }
     }
