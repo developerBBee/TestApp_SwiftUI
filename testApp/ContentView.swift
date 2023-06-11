@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import CoreData
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
@@ -16,11 +15,19 @@ struct ContentView: View {
         animation: .default)
     private var items: FetchedResults<Item>
 
-    @State var count = 0
+    var count = 0
     var body: some View {
         NavigationView {
-            NavigationLink(destination: CountUP()) {
-                Text("画面遷移")
+            VStack {
+                Spacer()
+                NavigationLink(destination: CountUP()) {
+                    Text("画面遷移 CountUP")
+                }
+                Spacer()
+                NavigationLink(destination: MyImage()) {
+                    Text("画面遷移 MyImage")
+                }
+                Spacer()
             }
         }
     }
